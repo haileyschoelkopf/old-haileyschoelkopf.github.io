@@ -14,11 +14,11 @@ menu:
         - name: Blog
           url: blog/
           weight: 1
-        - name: Books
-          url: books/
+        - name: Talks
+          url: talks/
           weight: 2 
-        - name: Papers
-          url: papers/
+        - name: Publications
+          url: publications/
           weight: 3
         # - name: Courses
         #   url: courses/
@@ -58,8 +58,8 @@ params:
           buttons:
             - name: Blog
               url: blog/
-            - name: Research
-              url: papers/
+            - name: Publications
+              url: publications/
             - name: About
               url: about/
             # - name: Courses
