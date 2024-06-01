@@ -11,21 +11,18 @@ taxonomies:
 
 menu:
     main:
+        - name: Blog
+          url: blog/
+          weight: 1
         - name: Books
           url: books/
-          weight: 1 
+          weight: 2 
         - name: Papers
           url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 5
+        # - name: Courses
+        #   url: courses/
+        #   weight: 4
 
 params:
     description: "TODO"
@@ -59,20 +56,16 @@ params:
           imageHeight: 160
           imageTitle: Hailey Schoelkopf
           buttons:
-            - name: Books
-              url: books/
+            - name: Blog
+              url: blog/
             - name: Papers
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
+            # - name: Courses
+            #   url: courses/
             - name: Tags
               url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            # - name: Archive
+            #   url: archive/
 
     socialIcons:
         - name: Email
@@ -99,7 +92,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Hailey Schoelkopf"
       icon: favicon.ico
       iconHeight: 18
 
