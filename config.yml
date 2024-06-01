@@ -58,8 +58,10 @@ params:
           buttons:
             - name: Blog
               url: blog/
-            - name: Papers
+            - name: Research
               url: papers/
+            - name: About
+              url: about/
             # - name: Courses
             #   url: courses/
             - name: Tags
